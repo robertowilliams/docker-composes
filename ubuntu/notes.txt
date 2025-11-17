@@ -1,0 +1,16 @@
+docker compose build
+
+
+docker compose up -d
+
+
+ssh nalitica@localhost -p 2222
+
+
+ssh root@localhost -p 2222
+
+
+git clone https://github.com/weaviate/weaviate-studio.git
+
+VSCODE extension weaviate studio
+

@@ -1,0 +1,11 @@
+services:
+  ubuntu-ssh:
+    build: .
+    container_name: vecgraph
+    ports:
+      - "2222:22"
+      - "5000-5010:5000-5010"
+    volumes:
+      - /Users/roberto/Desktop/vecgraph-main:/workspace
+    stdin_open: true
+    tty: true
